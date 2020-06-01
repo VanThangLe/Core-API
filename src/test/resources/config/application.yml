@@ -86,5 +86,5 @@ jhipster:
 # ===================================================================
 
 application:
-    baseUrl: "https://ventomarme100.bizwebvietnam.net/admin/"
-    token: "8642805b0546472b8e76d02963604be1"
+    baseUrl: "https://thanglv2-sapostaging.mysapo.vn/admin/"
+    token: "41d9e68398b84ce4a4900c6f9f211d0d"
