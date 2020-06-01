@@ -19,7 +19,7 @@ public class HeaderRequestInterceptor implements ClientHttpRequestInterceptor {
 	public ClientHttpResponse intercept(HttpRequest request, byte[] body, ClientHttpRequestExecution execution)
 			throws IOException {
 		HttpRequest wrapper = new HttpRequestWrapper(request);
-		wrapper.getHeaders().set("X-Bizweb-Access-Token", token);
+		wrapper.getHeaders().set("X-Sapo-Access-Token", token);
 		return execution.execute(wrapper, body);
 	}
 }
